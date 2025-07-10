@@ -12,7 +12,7 @@ exclude = [
 ]
 categories = ["web-programming", "api-bindings", "network-programming"]
 description = "Enhanced HTTP client API wrapper for reqwest with improved ergonomics"
-keywords = ["http", "client", "reqwest", "api", "web", "rest"]
+keywords = ["http", "client", "reqwest", "api", "web"]
 authors = ["pas2rust <pas2000@proton.me>"]
 homepage = "https://github.com/pas2rust/neto"
 documentation = "https://docs.rs/neto"
