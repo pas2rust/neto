@@ -2,7 +2,6 @@
 name = "nekoui"
 version = "0.0.1"
 edition = "2024"
-description = ""
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/pas2rust/nekoui"
 readme = "README.md"
@@ -11,9 +10,9 @@ exclude = [
     "tests",
     "main.rs"
 ]
-
-keywords = [""]
-categories = [""]
+categories = ["gui", "wasm", "web-programming"]
+description = "A component-based UI framework for Leptos applications"
+keywords = ["ui", "leptos", "component", "web", "framework"]
 authors = ["pas2rust <pas2000@proton.me>"]
 homepage = "https://github.com/pas2rust/"
 documentation = "https://docs.rs/nekoui"
