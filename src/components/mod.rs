@@ -1,0 +1,9 @@
+pub mod body;
+pub mod config;
+pub mod data;
+pub mod del;
+pub mod get;
+pub mod patch;
+pub mod post;
+pub mod put;
+pub mod url;

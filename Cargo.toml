@@ -1,6 +1,6 @@
 [package]
 name = "neto"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/pas2rust/neto"
@@ -17,4 +17,16 @@ authors = ["pas2rust <pas2000@proton.me>"]
 homepage = "https://github.com/pas2rust/neto"
 documentation = "https://docs.rs/neto"
 
+[features]
+json = ["reqwest/json"]
+native = ["reqwest/multipart"]
+wasm = []
+
 [dependencies]
+reqwest = { version = "0.12", features = ["json"]}
+kenzu = "0.0.2"
+serde_json =  "1"
+regex = "1.11.1"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
