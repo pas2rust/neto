@@ -721,7 +721,7 @@ dependencies = [
 
 [[package]]
 name = "neto"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "kenzu",
  "regex",

@@ -1,7 +1,7 @@
 # `neto`
 
-[![Crates.io](https://img.shields.io/crates/v/neto.svg)](https://crates.io/crates/neto)  
-[![Docs.rs](https://docs.rs/neto/badge.svg)](https://docs.rs/neto)  
+[![Crates.io](https://img.shields.io/crates/v/neto.svg)](https://crates.io/crates/neto)
+[![Docs.rs](https://docs.rs/neto/badge.svg)](https://docs.rs/neto)
 [![License](https://img.shields.io/crates/l/neto.svg)](https://github.com/pas2rust/neto/blob/main/LICENSE)
 
 **`neto`** is a Rust crate providing a flexible HTTP client abstraction with a focus on builder patterns, header management, and easy configuration of `reqwest::Client`. It supports both manual client injection and automatic client configuration with default headers.
@@ -89,3 +89,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 ```
+
+# ❤️ Donate
+
+[![Monero](https://img.shields.io/badge/88NKLkhZf1nTVpaSU6vwG6dwBwb9tFVSM8Lpj3YqdL1PMt8Gm7opV7aUnMYBaAC9Y6a4kfDc3fLGoMVqeSJKNphyLpLdEvC-FF6600?style=flat&logo=monero&logoColor=white)](https://github.com/pas2rust/pas2rust/blob/main/pas-monero-donate.png)
+[![Bitcoin](https://img.shields.io/badge/bc1qnlayyh84e9u5pd4m9g9sf4c5zdzswvkmudmdu5-EAB300?style=flat&logo=bitcoin&logoColor=white)](https://github.com/pas2rust/pas2rust/blob/main/pas-bitcoin-donate.png)
